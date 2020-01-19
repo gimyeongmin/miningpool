@@ -1,0 +1,3 @@
+$ if [[ ! -d "$WCC_WORLDCASH/bin" ]]; then mkdir -p "$WCC_WORLDCASH/bin"; fi && \
+curl -L https://github.com/docker/machine/releases/download/v0.16.2/docker-machine-Windows-x86_64.exe > "$WCC_WORLDCASH/bin/docker-machine.exe" && \
+chmod +x "$WCC_WORLDCASH/bin/docker-machine.exe"
